@@ -1,0 +1,171 @@
+
+#myskill{
+  font-family: "raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+#myskill h1{
+  font-size: 36px;
+  color: #555;
+  font-weight: bold;
+}
+#myskill h3{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+#myskill img{
+  margin-top: -50px;
+}
+#myskill i{
+  font-size: 26px;
+  color: #555;
+}
+#myskill p{
+  font-weight: 500;
+}
+#myskill .card{
+  border-radius: 0;
+  box-shadow: 5px 5px 15px rgb(255, 218, 9);
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card:hover{
+  background: rgb(255, 218, 9);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card:hover h3, #myskill .card:hover i{
+  color: #fff;
+}
+
+/* Corel */
+#myskill .card1{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #5ca633;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card1:hover{
+  background: #5ca633;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card1:hover h3, #myskill .card1:hover i{
+  color: #fff;
+}
+
+/* Python */
+#myskill .card2{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #1e415e;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card2:hover{
+  background: #1e415e;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card2:hover h3, #myskill .card2:hover i{
+  color: #fff;
+}
+
+/* SQL */
+#myskill .card3{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #6491c4;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card3:hover{
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card3:hover h3, #myskill .card3:hover i{
+  color: rgb(0, 0, 0);
+}
+
+/* SQL */
+#myskill .card4{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #fe7d36;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card4:hover{
+  background: #fe7d36;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card4:hover h3, #myskill .card4:hover i{
+  color: #fff;
+}
+
+/* CSS */
+#myskill .card5{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #35b6f0;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card5:hover{
+  background: #35b6f0;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card5:hover h3, #myskill .card5:hover i{
+  color: #fff;
+}
+
+/* CSS */
+#myskill .card6{
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #fed83f;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+#myskill .card6:hover{
+  background: #fed83f;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#myskill .card6:hover h3, #myskill .card6:hover i{
+  color: #fff;
+}

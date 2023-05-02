@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{  font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #00E1FF, #29008A);
+    padding: 0 !important;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #fbff00;
+}
+@media only screen and (max-width: 1000px) {
+    .nav-link:hover {
+        border-bottom: none !important;
+    }
+}
+
+/* banner */
+#perkenalan-diri{
+    background-image: linear-gradient(to right, #00E1FF, #29008A);
+    color: #fff;
+    padding-top: 5%;
+}
+.perkenalan{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100;
+}
+#perkenalan-diri a{
+    color:#fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+#perkenalan-diri span{
+    color: yellow;
+}
+#perkenalan-diri h1{
+    color: #fff;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0 20px;
+}
+#perkenalan-diri h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
+#perkenalan-diri p{
+    width: 440px;
+    max-width: 100%;
+    color:#fff;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* About Me */
+#objective{
+    padding: 65px 0;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 8%;
+}
+.objective ul li{
+    margin: 10px 0;
+}
+.objective ul{
+    margin-left: -10px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* services SECTION */
+#services{
+    margin: 100px 0;
+}
+.services{
+    border-left: 4px solid #3324be;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.services img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* footer section */
+#footer{
+    background-image: linear-gradient(to right, #00E1FF, #29008A);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box i{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #00E1FF, #29008A);
+}
+.footer-box form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow:none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #00E1FF, #29008A);
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
